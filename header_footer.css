@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+}
+header{
+    background-color: blue;
+    width: 100%;
+    display: grid; grid-template-columns: 1fr 1fr;
+    padding-top: 5px; padding-bottom: 5px;
+    position: fixed;
+    z-index: 10;
+}
+#title{
+    font-size: 50px;
+    font-family: 'Black Ops One', system-ui;
+    color: white; text-decoration: none;
+    padding-left: 20px;
+}
+#menu{
+    overflow: hidden;
+    list-style-type: none;
+    margin-top: 10px;
+}
+li{
+    float: left;
+}
+.menu{
+    color: white;
+    text-decoration: none; font-weight: 700;
+    font-family: 'Inria Sans', sans-serif;
+    padding-left: 20px; font-size: 30px;
+}
+#top-letter{
+    background-color: rgb(126,177,255);
+    color: white; font-family: 'Black Ops One', system-ui;
+    font-size: 60px; padding-left: 10px; padding-right: 10px;
+    position: absolute; left: 60%; top: 46%;
+
+}
